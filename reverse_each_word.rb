@@ -1,4 +1,6 @@
 
 def reverse_each_word(sentence)
-    sentence.map { |word| puts word.reverse }
+  elements = sentence.split " "
+  elements = elements.reverse
+  elements.map {|word| puts "#{}"}
 end
