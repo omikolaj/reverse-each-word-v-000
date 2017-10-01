@@ -1,7 +1,7 @@
 
 def reverse_each_word(sentence)
   elements = sentence.split " "
-  elements.each {|word| items += "#{word.reverse}.join"   binding.pry}
+  elements.each {|word| "#{word.reverse}"   binding.pry}
   puts items
 
 end
